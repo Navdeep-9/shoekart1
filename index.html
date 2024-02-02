@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showroom </title>
+    <link rel="shortcut icon" href="assets/company/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            font-family: cursive;
+            /* color: crimson; */
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: darkmagenta;
+            line-height: 1.8rem;
+
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            margin: auto;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .smalltext {
+            font-size: 1rem;
+            font-weight: 700;
+
+        }
+
+        .container {
+            max-width: 1180px;
+            margin: inline auto;
+        }
+
+        .banner {
+            color: rgb(254, 9, 9);
+            padding: 15px 30px;
+            text-align: center;
+
+        }
+
+        .top-banner {
+            background-color: aqua;
+            background-image: url(assets/l1.png);
+            background-size: 300px;
+            background-repeat: repeat;
+        }
+
+        UL {
+            list-style: none;
+
+        }
+
+        .main-nav {
+            justify-content: space-between;
+        }
+
+        .company-logo img {
+            width: 200px;
+        }
+
+        .login {
+            /* border: 2px color(red); */
+            border-radius: 4px;
+            font-weight: 700;
+            background-color: rgb(3, 247, 194) !important;
+            color: black;
+            padding: 10px 10px;
+        }
+
+        .signup {
+            /* border: 2px color(red); */
+            border-radius: 4px;
+            font-weight: 700;
+            background-color: rgb(149, 247, 3) !important;
+            color: black;
+            padding: 10px 10px;
+        }
+
+        .hover-linkes:hover {
+            color: rgb(55, 7, 245);
+            /* background-color: lightblue; */
+        }
+
+        .signup:hover {
+            /* color: brown; */
+            transition: 0.2 ease-out;
+            background-color: aqua;
+        }
+
+        .logo {
+            height: 70px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .feature-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            /* flex-direction: row; */
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px   ;
+            background-image:url(assets/company/bg.webp);
+            background-position:center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- top banner -->
+    <div class="top-banner">
+        <div class="container"></div>
+        <div class="smalltext banner"> 🖐️Welcome to mart</div>
+    </div>
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="assets/company/logo.png" style="border-radius: 15px; margin-top: 30px;" alt="cpmpany-logo">
+            </a>
+            <div class="nav-linkes">
+                <ul class="flex">
+                    <li><a href="#" class="hover-linkes">Formal</a></li>
+                    <li><a href="#" class="hover-linkes">Casual</a></li>
+                    <li><a href="# " class="hover-linkes">Sports</a></li>
+                    <li><a href="#" class="hover-linkes">sneakers</a></li>
+                    <li><a href="#" class="hover-linkes">mesh</a></li>
+                    <li><a href="#" class="hover-linkes">stud</a></li>
+                    <li><a href="#" class="hover-linkes login">sign in</a></li>
+                    <li><a href="#" class="hover-linkes signup">sign up</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container section1 flex">
+            <div class="section left">
+                <h1 style="margin-top: 10px;">Get Your Shoes</h1>
+                <p style="margin-top: 10px; background-image: url(assets/company/bgimg.jpeg);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ducimus
+                    est id reiciendis, aperiam fugit dolores quam excepturi quo, nemo beatae tenetur quibusdam deserunt
+                    veritatis eius quis consequatur aspernatur deleniti voluptatem odit laudantium maxime. Expedita quia
+                    veniam repellendus tempore optio.</p>
+                <a style="margin-top: 20px;" href="#" class="login">PLace your Order</a>
+            </div>
+            <div class="section right">
+                <img src="assets/store.jpg" alt="storeimage" width="600px" style="justify-content: center;">
+            </div>
+        </div>
+    </header>
+    
+    <section class="company-section">
+        <h2 style="text-align: center; color: aqua; background-color: darkgray; font-size: medium; font-weight: 200;">
+            The relative companies are as follow</h2>
+        <div class="logos flex" style="justify-content: space-between;">
+            <img class="logo " src="assets/company/adidas.jpeg" alt="Adidas">
+            <img class="logo" src="assets/company/redtape.png" alt="Redtape">
+            <img class="logo" src="assets/company/reebok.png" alt="Reebok">
+            <img class="logo" src="assets/company/bata.png" alt="Bata">
+            <img class="logo" src="assets/company/campus.png" alt="Campus">
+            <img class="logo" src="assets/company/nike.jpeg" alt="Nike">
+            <img class="logo" src="assets/company/wrogn.png" alt="Wrogn">
+        </div>
+    </section>
+
+    <section class="feature-section" style="justify-content: center;text-align: center; margin-left: 80px; ">
+        <div class="container">
+            <div class="features" style="text-align: center; margin: auto;">
+                <h2 style="margin-top: 30px; background-color: aquamarine; text-align: center; color: black; font-size: medium; font-weight: 300;">Take a look Upon other items</h2>
+                <a href="#" class="login" style="margin-top: 50px; margin-bottom: 20px;">Click for more</a>
+            </div>
+            <div class="container feature-list">
+                <div class="featurelist">
+                    <img src="assets/company/grossory.webp" alt="">
+                    <h3>Grocery</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+                <div class="featurelist">
+                    <img src="assets/company/grossory.webp" alt="">
+                    <h3>Grocery</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+                <div class="featurelist">
+                    <img src="assets/company/mobile.webp" alt="">
+                    <h3>mobile</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+                <div class="featurelist">
+                    <img src="assets/company/hnf.webp" alt="">
+                    <h3>Home and Fur</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+                <div class="featurelist">
+                    <img src="assets/company/elctrn.webp" alt="">
+                    <h3>electronics</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+                <div class="featurelist">
+                    <img src="assets/company/trvl.webp" alt="">
+                    <h3>travel</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+                <div class="featurelist">
+                    <img src="assets/company/aplncs.webp" alt="">
+                    <h3>Appliences</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="login">Click here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section"></section>
+    <section class="big-feature-section"></section>
+    <section class="big-feature-section"></section>
+
+    <section class="example-section"></section>
+
+    <section class="cta-section"></section>
+
+    <footer style="height: 100vh;"></footer>
+    <div class="sub-footer"></div>
+</body>
+
+</html>
